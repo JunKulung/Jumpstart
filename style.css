@@ -1,10 +1,12 @@
 /*NAVBAR*/
 .navbar {
-    font-size: 15px;
+    font-size: 20px;
     letter-spacing: 3px;
     font-weight: bold;
     font-family: 'Open Sans Condensed', sans-serif;
+   
 }
+
 /*CAROUSEL*/
 .carousel {
     margin: 0%;
@@ -31,11 +33,12 @@
 } 
 .bs-example h1 {
     font-family: 'Monoton', cursive;
-    font-size: 7.1rem;
+    font-size: 13rem;
 }
 .bs-example p {
     font-family: 'Open Sans Condensed', sans-serif;
     letter-spacing: 0.3rem;
+    font-size: 20px;  
 }
 .bs-example a {
         font-family: 'Open Sans Condensed', sans-serif;
@@ -64,7 +67,7 @@
 }
 .project p {
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 16px;
+    font-size: 25px;
     letter-spacing: 2px; 
     }
 .image-container img {
@@ -85,12 +88,12 @@
 .categories li{
     font-family: 'Open Sans Condensed', sans-serif;
     letter-spacing: 2px;
-    font-size: 16px;
+    font-size: 21px;  
 }
 .paragraph {
     font-family: 'Open Sans Condensed', sans-serif;
     letter-spacing: 2px;
-    font-size: 16px;    
+   
 }
  .paragraph h3 {
     font-weight: bold;
@@ -103,12 +106,15 @@
 }
 .btn-primary {
     width: 160px;
-    padding: 1.3rem 0;
+    
+    padding: 1.3rem;
     border: 0;
     margin-top: 2.8rem;
     background-color: #399bd1;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
     transition: .5s box-shadow;
+    margin: 20px;
+
 }
 .help {
     padding: 5.2rem 0;
@@ -116,4 +122,22 @@
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
     letter-spacing: 2px;
+  
+}
+.featured-project h2 {
+    font-family: 'Righteous', cursive;
+}
+.container h2 {
+    font-family: 'Righteous', cursive;
+}
+.buttonload {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 24px; /* Some padding */
+    font-size: 16px; /* Set a font-size */
+}
+.fa {
+    margin-left: -12px;
+    margin-right: 8px;
 }

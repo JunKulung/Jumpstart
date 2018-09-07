@@ -11,3 +11,9 @@ $(window).scroll(function(){
     lastScrollTop = scrollTop;
     }
 });
+
+var typed = new Typed('#test', {
+    strings: ["First sentence.", "Second sentence."],
+    typeSpeed: 30
+    });
+    
